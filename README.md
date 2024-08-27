@@ -3,6 +3,9 @@ A simple plugin to send command to multiple pane in wezterm
 
 I am new to the world of Lua, so feel free to open pull requests to improve the plugin or the documentation.
 
+# Usage
+![demo](https://github.com/user-attachments/assets/be535d78-8494-480c-b44c-3ab576833dd2)
+
 # Setup
 
 1. Require the plugin
