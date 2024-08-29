@@ -27,5 +27,3 @@ cmd_sender.apply_to_config(config, {
 })
 ```
 
-# Methods
-All the methods are public, so you can use them to create your own plugin.
