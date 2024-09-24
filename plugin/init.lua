@@ -50,6 +50,10 @@ function pub.apply_to_config(config, opts)
         end
     end
 
+    if config.keys == nil then
+      config.keys = {}
+    end
+
     table.insert(config.keys, {
         key = key,
         mods = mods,
