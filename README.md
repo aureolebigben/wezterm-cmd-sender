@@ -3,6 +3,16 @@ A simple plugin to send command to multiple pane in wezterm
 
 I am new to the world of Lua, so feel free to open pull requests to improve the plugin or the documentation.
 
+# Type annotations
+
+For Lua type annotations and autocompletion support, this plugin is referenced in [wezterm-types](https://github.com/DrKJeff16/wezterm-types) by [@DrKJeff16](https://github.com/DrKJeff16).
+
+It can be imported with type annotations as follows:
+```lua
+---@type CmdSender
+local cmd_sender = wezterm.plugin.require("https://github.com/aureolebigben/wezterm-cmd-sender")
+```
+
 # Usage
 ![demo](https://github.com/user-attachments/assets/be535d78-8494-480c-b44c-3ab576833dd2)
 
@@ -26,4 +36,3 @@ cmd_sender.apply_to_config(config, {
     description = 'Enter command to send to all panes of active tab'
 })
 ```
-
